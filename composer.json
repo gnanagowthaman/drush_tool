@@ -1,5 +1,5 @@
 {
-    "name": "custom/drush_tool",
+    "name": "gps/drush_tool",
     "description": "This tool is used to convert site configuration to CSV",
     "type": "drupal-drush",
     "require": {
@@ -23,7 +23,7 @@
         "installer-name": "drush_tool",
         "installer-paths": {
             "drush/Commands/{$name}": [
-                "custom/drush_tool"
+                "gps/drush_tool"
             ]
         },
         "drush": {
