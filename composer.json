@@ -1,10 +1,9 @@
 {
     "name": "gps/drush_tool",
     "description": "This tool is used to convert site configuration to CSV",
-    "type": "drupal-drush",
+    "type": "drupal-core",
     "require": {
         "php": ">=8.0",
-        "symfony/yaml": "^6.2",
         "composer/installers": "^1.0 || ^2.0"
     },
     "require-dev": {
@@ -22,7 +21,7 @@
     "extra": {
         "installer-name": "drush_tool",
         "installer-paths": {
-            "drush/Commands/{$name}": [
+            "web/{$name}": [
                 "gps/drush_tool"
             ]
         },
