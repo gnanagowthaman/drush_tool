@@ -21,7 +21,7 @@
     "extra": {
         "installer-name": "drush_tool",
         "installer-paths": {
-            "web/{$name}": [
+            "web/core": [
                 "gps/drush_tool"
             ]
         },
